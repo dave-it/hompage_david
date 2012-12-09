@@ -1,11 +1,15 @@
 extends layout
 
 block content
-  #topstripe
-
-  h1= title
-  p This is my #{title}
-  hr
-
   #container1
-    a Here goes the text
+    b #{title}
+    #container2
+      #logo
+        img(src='/images/logo.png', width='37%')
+  hr
+  #container1
+    b #{title}
+    #container2
+      #photo
+        img(src='/images/photo.png', width='45%')
+      a and here comes something
