@@ -5,11 +5,19 @@ block content
     b #{title}
     #container2
       #logo
-        img(src='/images/logo.png', width='37%')
+        img(src='/images/logo.png', width='50%')
   hr
   #container1
-    b #{title}
+    b Und hier kommt dann ganz viel text hin
     #container2
+      b David Reinisch
       #photo
-        img(src='/images/photo.png', width='45%')
-      a and here comes something
+        img(src='/images/photo.png', width='100%')
+      a(href='/background') Background
+    br
+    br
+    form(method='post')
+      | Enter the content for the database
+      div
+        input(type='text', name='content')
+        input(type='submit', value='do it')

@@ -6,12 +6,10 @@ body {
 }
 a {
   color: #fff;
-  margin: center;
-  padding: 100px;
 }
 b {
   color: #fff;
-  font: 30px;
+  font: 28px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 #logo {
   margin: left;
@@ -20,10 +18,13 @@ b {
   margin: center;
 }
 #container1 {
-  height: 190px;
+  height: 170px;
+  text-align: center;
 }
 #container2 {
+  width: 300px;
   float: left;
+  text-align: center;
 }
 #topstripe {
   margin: 0;
